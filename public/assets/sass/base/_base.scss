@@ -1,0 +1,17 @@
+// global and html/body elements styling goes here
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // based on default font-size of browser 16px; set the default to 10px for easier use of rem unit 10/16=0.625px*100=62.5%
+}
+
+body {
+    box-sizing: border-box;
+}

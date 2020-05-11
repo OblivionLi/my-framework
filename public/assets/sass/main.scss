@@ -1,0 +1,15 @@
+// file that imports all the .scss files
+
+// abstracts folder files import
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// base folder files import
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// pages folder files import
+@import "pages/home";

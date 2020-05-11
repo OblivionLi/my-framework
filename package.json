@@ -1,0 +1,14 @@
+{
+  "name": "my-framework",
+  "version": "1.0.0",
+  "description": "Blank framework for future projects in pure PHP",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass public/assets/sass/main.scss public/assets/css/style.css -w"
+  },
+  "author": "Liviu (OblivionLi)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
